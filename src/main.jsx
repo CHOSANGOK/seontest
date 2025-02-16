@@ -5,7 +5,7 @@ import Home from "@/pages/Home/Home";
 import NotFound from "@/pages/Error/NotFound";
 import App from "@/App.jsx";
 import Login from "@/pages/Auth/Login.jsx";
-import Register from "@/pages/Auth/register.jsx";
+import Register from "@/pages/Auth/Register.jsx";
 import VideoLibrary from "@/pages/VideoLibrary/VideoLibrary";
 import VideoDetail from "./pages/VideoLibrary/VideoDetail";
 
