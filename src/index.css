@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+body {
+  @apply bg-gray-100;
+}
+
+.btn {
+  @apply bg-white text-purple-700 border border-purple-700 px-4 py-2 rounded-lg hover:bg-purple-300  hover:text-white hover:rounded-3xl transition-all duration-300;
+}
+
+.meun {
+  @apply hover:scale-120 hover:bg-gray-300 rounded-full transition duration-350;
+}
