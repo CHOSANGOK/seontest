@@ -17,7 +17,7 @@ const Register = () => {
             </label>
             <input
               type="text"
-              required="true"
+              required={true}
               id="name"
               placeholder="이름을 입력하세요"
               className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring focus:border-purple-300"
@@ -30,7 +30,7 @@ const Register = () => {
             </label>
             <input
               type="email"
-              required="true"
+              required={true}
               id="email"
               placeholder="이메일을 입력하세요"
               className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring focus:border-purple-300"
@@ -43,7 +43,7 @@ const Register = () => {
             </label>
             <input
               type="password"
-              required="true"
+              required={true}
               id="password"
               placeholder="비밀번호를 입력하세요"
               className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring focus:border-purple-300"
@@ -59,7 +59,7 @@ const Register = () => {
             </label>
             <input
               type="password"
-              required="true"
+              required={true}
               id="confirmPassword"
               placeholder="비밀번호를 다시 입력하세요"
               className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring focus:border-purple-300"

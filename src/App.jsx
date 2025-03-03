@@ -1,6 +1,7 @@
 import { Outlet } from "react-router-dom";
 import "./App.css";
 import Nav from "./components/Nav";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <main>
         <Outlet />
       </main>
-      <footer>© 2025 My Website</footer>
+      <Footer />
     </div>
   );
 }

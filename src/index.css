@@ -11,3 +11,7 @@ body {
 .meun {
   @apply hover:scale-120 hover:bg-gray-300 rounded-full transition duration-350;
 }
+
+.menuLi {
+  @apply hover:bg-purple-300 cursor-pointer;
+}

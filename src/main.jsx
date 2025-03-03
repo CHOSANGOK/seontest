@@ -7,7 +7,7 @@ import App from "@/App.jsx";
 import Login from "@/pages/Auth/Login.jsx";
 import Register from "@/pages/Auth/Register.jsx";
 import VideoLibrary from "@/pages/VideoLibrary/VideoLibrary";
-import VideoDetail from "./pages/VideoLibrary/VideoDetail";
+import VideoDetail from "@/pages/VideoLibrary/VideoDetail";
 
 const router = createBrowserRouter([
   {
@@ -17,7 +17,7 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Home />,
+        element: <VideoLibrary />,
       },
       { path: "login", element: <Login /> },
       { path: "register", element: <Register /> },
