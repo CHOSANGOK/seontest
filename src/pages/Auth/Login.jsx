@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import Modal from "../../components/Modal";
 
 const Login = () => {
@@ -48,9 +49,9 @@ const Login = () => {
         {/* 회원가입 링크 */}
         <p className="mt-4 text-center">
           계정이 없으신가요?{" "}
-          <a href="/register" className="text-purple-700 hover:underline">
-            회원가입
-          </a>
+            <Link to={"/register"} className="text-purple-700 hover:underline">
+          회원가입
+            </Link>
         </p>
       </div>
 
